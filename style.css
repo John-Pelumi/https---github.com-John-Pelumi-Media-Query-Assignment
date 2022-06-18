@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 100%, 74%);
+  font-family: poppins;
+  box-sizing: border-box;
+  background-image: url("bg-intro-desktop.png");
+}
+.container {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  margin-top: 100px;
+}
+.story {
+  text-align: left;
+  margin-top: 150px;
+  color: white;
+}
+h1 {
+  line-height: 35px;
+}
+.quote {
+  font-size: 17px;
+  margin-top: 30px;
+}
+.form {
+  width: 70%;
+  color: white;
+}
+.title {
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: hsl(248, 32%, 49%);
+}
+div.input {
+  border-radius: 7px;
+  background-color: white;
+  padding: 30px;
+}
+input {
+  border: 1px solid hsl(246, 25%, 77%);
+  padding: 20px 0;
+  width: 100%;
+  border-radius: 7px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+input:hover {
+  border: 1px solid hsl(249, 10%, 26%);
+  transition: ease-in 0.5s;
+}
+input[type="button"] {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+p.warning {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 13px;
+  color: hsl(246, 25%, 77%);
+}
+
+@media (min-width: 375px) and (max-width: 1000px) {
+    .container{
+        text-align: center;
+        flex-direction: column;
+    }
+    p.warning{
+        font-size: 9px;
+    }
+}
+
